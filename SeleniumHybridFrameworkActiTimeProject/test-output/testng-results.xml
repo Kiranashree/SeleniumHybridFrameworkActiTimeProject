@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57305" started-at="2018-04-01T08:42:15Z" finished-at="2018-04-01T08:43:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="57305" started-at="2018-04-01T08:42:15Z" finished-at="2018-04-01T08:43:12Z">
+      <class name="com.actitime.demo.testscripts.VerifyProductVersion">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.actitime.demo.testscripts.VerifyProductVersion@8e7350]" name="openApplication" is-config="true" duration-ms="10010" started-at="2018-04-01T14:12:52Z" finished-at="2018-04-01T14:13:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testProductVersion()[pri:3, instance:com.actitime.demo.testscripts.VerifyProductVersion@8e7350]" name="testProductVersion" duration-ms="10247" started-at="2018-04-01T14:13:02Z" finished-at="2018-04-01T14:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductVersion -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:com.actitime.demo.testscripts.VerifyProductVersion@8e7350]" name="closeApplication" is-config="true" duration-ms="203" started-at="2018-04-01T14:13:12Z" finished-at="2018-04-01T14:13:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductVersion status=SUCCESS method=VerifyProductVersion.testProductVersion()[pri:3, instance:com.actitime.demo.testscripts.VerifyProductVersion@8e7350] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.actitime.demo.testscripts.VerifyProductVersion -->
+      <class name="com.actitime.demo.testscripts.TestInvalidLogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.actitime.demo.testscripts.TestInvalidLogin@42a311]" name="openApplication" is-config="true" duration-ms="9773" started-at="2018-04-01T14:12:33Z" finished-at="2018-04-01T14:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:com.actitime.demo.testscripts.TestInvalidLogin@42a311]" name="testInvalidLogin" duration-ms="9170" started-at="2018-04-01T14:12:42Z" finished-at="2018-04-01T14:12:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:com.actitime.demo.testscripts.TestInvalidLogin@42a311]" name="closeApplication" is-config="true" duration-ms="231" started-at="2018-04-01T14:12:52Z" finished-at="2018-04-01T14:12:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=TestInvalidLogin.testInvalidLogin()[pri:2, instance:com.actitime.demo.testscripts.TestInvalidLogin@42a311] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.actitime.demo.testscripts.TestInvalidLogin -->
+      <class name="com.actitime.demo.testscripts.TestValidLogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.actitime.demo.testscripts.TestValidLogin@13b32d7]" name="openApplication" is-config="true" duration-ms="12861" started-at="2018-04-01T14:12:15Z" finished-at="2018-04-01T14:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:com.actitime.demo.testscripts.TestValidLogin@13b32d7]" name="testValidLogin" duration-ms="4605" started-at="2018-04-01T14:12:28Z" finished-at="2018-04-01T14:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:com.actitime.demo.testscripts.TestValidLogin@13b32d7]" name="closeApplication" is-config="true" duration-ms="168" started-at="2018-04-01T14:12:33Z" finished-at="2018-04-01T14:12:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=TestValidLogin.testValidLogin()[pri:1, instance:com.actitime.demo.testscripts.TestValidLogin@13b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.actitime.demo.testscripts.TestValidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
